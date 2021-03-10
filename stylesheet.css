@@ -10,7 +10,7 @@ body {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url("”wall.png")
+  background: url("wall.png")
     center / cover;
 }
 
