@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <title>明日香ちゃん誕生日おめでとう！</title>    
-    <script type="module" src="https://unpkg.com/@google/model-viewer@1.0.0/dist/model-viewer.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>明日香ちゃん誕生日おめでとう！</title>
+    <!-- Import the component -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
     <script
       nomodule
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
@@ -19,14 +24,12 @@
   </head>
   <body>
     <p><font size="4">明日香ちゃん誕生日おめでとう！！</font></p>
-    <model-viewer
-      width: 100%;
-      height: 640px;
-      src="nyanko_0308_5_4.glb"
-      ios-src="nyanko_0308_5_4.usdz"
-      ar
-      camera-controls
-    >
     </model-viewer>
+        <model-viewer
+      src="model.gltf"
+      ios-src="nyanko_0308_5_4.usdz"
+      camera-controls
+      ar
+    ></model-viewer>
   </body>
 </html>
