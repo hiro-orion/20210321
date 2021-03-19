@@ -17,7 +17,7 @@ body::before {
     color: #565656;
     background: #fff8dc;
     box-shadow: 0px 0px 0px 10px #fff8dc;
-    border: dashed 2px #191970;
+    border: dashed 2px #0000ff;
     border-radius: 8px;
 }
 .box p {
