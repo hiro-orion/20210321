@@ -12,6 +12,6 @@ body::before {
 }
 
 span {
-   background-color: rgba( 204, 255, 204, 0.55 );
-   color: blue;
+   background-color: rgba( 220, 220, 220, 0.55 );
+   color: white;
 }
