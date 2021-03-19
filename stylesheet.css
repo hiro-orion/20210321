@@ -10,3 +10,9 @@ body::before {
   width: 100%;
   height: 100vh;
 }
+
+span {
+   opacity: 0.55; /* 55％不透明度(＝45％透過) */
+   background-color: #ccffcc;
+   color: blue;
+}
